@@ -1950,15 +1950,15 @@ header .header-logo a {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: #EBEBEB;
+	background: #121212;
 	width: 50%;
-	background-image: url(../images/profile-bg.jpg);
+
 	background-repeat: no-repeat;
 	background-position: center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
-	opacity: .2;
+	opacity: 1;
 }
 
 .about-wrap {
@@ -2822,6 +2822,10 @@ header .header-logo a {
 
 .contact-form .placeholder {
 	color: rgba(255, 255, 255, 0.7) !important;
+}
+
+.more-about-me{
+	color: white;
 }
 
 #contact form {
