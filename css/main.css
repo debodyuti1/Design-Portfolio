@@ -603,7 +603,7 @@ select {
 	padding: 1.5rem 0;
 	border: 0;
 	outline: none;
-	vertical-align: middle;
+
 	color: #313131;
 	font-family: "montserrat-regular", sans-serif;
 	font-size: 1.5rem;
@@ -749,7 +749,7 @@ select:-webkit-autofill,
 select:-webkit-autofill:hover,
 select:-webkit-autofill:focus {
 	border: none;
-	-webkit-text-fill-color: #7c3b08;
+	-webkit-text-fill-color: #202020;
 	transition: background-color 5000s ease-in-out 0s;
 }
 
@@ -1473,7 +1473,7 @@ header .header-logo a {
 	z-index: 800;
 	overflow-y: auto;
 	-webkit-transform: translateZ(0);
-	-webkit-backface-visibility: hidden;
+
 	-webkit-transform: translateX(100%);
 	-ms-transform: translateX(100%);
 	transform: translateX(100%);
@@ -2058,6 +2058,10 @@ header .header-logo a {
 
 .about-services ul.services .service-item {
 	padding-left: 8rem;
+}
+
+.hello-world{
+	color: #FFFFFF;
 }
 
 /* ------------------------------------------------------------------- 
@@ -3166,4 +3170,9 @@ footer .footer-social li:last-child {
 		right: 0;
 	}
 
+}
+
+.about-1{
+	color: rgb(255, 255, 255) !important;
+	font-size: 56px;
 }
