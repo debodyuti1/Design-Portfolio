@@ -1925,14 +1925,14 @@ header .header-logo a {
 #about {
 	position: relative;
 	padding: 10.8rem 0 10.8rem;
-	background-color: #FFFFFF;
+	background-color: #141414;
 	min-height: 700px;
 }
 
 #about h3 {
 	font-family: "montserrat-bold", sans-serif;
 	font-size: 1.6rem;
-	color: #4C2405;
+	color: #91450b;
 	text-transform: uppercase;
 	letter-spacing: .15rem;
 	margin: 0 0 0 .3rem;
@@ -1942,6 +1942,19 @@ header .header-logo a {
 	font-family: "librebaskerville-bold", serif;
 	font-size: 3.3rem;
 	line-height: 1.455;
+	color: white;
+}
+#about h4 {
+
+	color: white;
+}
+#about i {
+
+	color: #91450b;
+}
+#about p {
+
+	color: rgb(145, 145, 145);
 }
 
 .about-profile-bg {
@@ -2437,7 +2450,7 @@ header .header-logo a {
  *
  * ------------------------------------------------------------------- */
 #portfolio {
-	background: #EBEBEB;
+	background: #111111;
 	min-height: 800px;
 	position: relative;
 	padding: 12rem 0 15rem;
@@ -2458,6 +2471,13 @@ header .header-logo a {
 	width: 50%;
 	padding: 0;
 	margin: 0;
+}
+
+#portfolio h3{
+	color: #91450b;
+}
+#portfolio h1{
+	color: white;
 }
 
 #portfolio .bricks-wrapper .brick:nth-child(2n+1) {
